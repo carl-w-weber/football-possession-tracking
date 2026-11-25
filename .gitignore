@@ -1,0 +1,16 @@
+# Competition data is licensed to participants only: never commit it.
+data/*
+!data/README.md
+*.mp4
+*.npz
+
+# Per-frame outputs are derived from the match data.
+evaluation/results/*.csv
+evaluation/reports/
+evaluation/scoreboard.csv
+
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+.ipynb_checkpoints/

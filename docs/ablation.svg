@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="348" viewBox="0 0 760 348" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
+<style>.bg{fill:#fcfcfb}.t1{fill:#0b0b0b}.t2{fill:#52514e}.grid{stroke:#e4e3df}.s1{fill:#2a78d6}.ref{fill:#a3a29c}@media (prefers-color-scheme:dark){.bg{fill:#1a1a19}.t1{fill:#f0efec}.t2{fill:#c3c2b7}.grid{stroke:#3a3936}.s1{fill:#3987e5}.ref{fill:#77766f}}</style>
+<rect class="bg" width="760" height="348" rx="8"/>
+<text class="t1" x="24" y="30" font-size="16" font-weight="600">Possession recovery (spellF1) on held-out matches, with simulated tracking noise</text>
+<text class="t2" x="24" y="50" font-size="12.5">Metrica sample games 1–2, leave-one-game-out, official scorer. Higher is better.</text>
+<line class="grid" x1="270.0" x2="270.0" y1="60" y2="304" stroke-width="1"/>
+<text class="t2" x="270.0" y="322" font-size="11.5" text-anchor="middle">0.0</text>
+<line class="grid" x1="370.0" x2="370.0" y1="60" y2="304" stroke-width="1"/>
+<text class="t2" x="370.0" y="322" font-size="11.5" text-anchor="middle">0.2</text>
+<line class="grid" x1="470.0" x2="470.0" y1="60" y2="304" stroke-width="1"/>
+<text class="t2" x="470.0" y="322" font-size="11.5" text-anchor="middle">0.4</text>
+<line class="grid" x1="570.0" x2="570.0" y1="60" y2="304" stroke-width="1"/>
+<text class="t2" x="570.0" y="322" font-size="11.5" text-anchor="middle">0.6</text>
+<line class="grid" x1="670.0" x2="670.0" y1="60" y2="304" stroke-width="1"/>
+<text class="t2" x="670.0" y="322" font-size="11.5" text-anchor="middle">0.8</text>
+<text class="t1" x="258" y="88.5" font-size="13" text-anchor="end">Baseline: nearest player + 4 s vote</text>
+<path class="ref" d="M270,73.0 H437.0 a4,4 0 0 1 4,4 V91.0 a4,4 0 0 1 -4,4 H270 Z"/>
+<text class="t1" x="449.0" y="88.5" font-size="13" font-weight="400">0.342</text>
+<text class="t1" x="258" y="128.5" font-size="13" text-anchor="end">Viterbi segmentation</text>
+<path class="s1" d="M270,113.0 H500.0 a4,4 0 0 1 4,4 V131.0 a4,4 0 0 1 -4,4 H270 Z"/>
+<text class="t1" x="512.0" y="128.5" font-size="13" font-weight="400">0.468</text>
+<text class="t1" x="258" y="168.5" font-size="13" text-anchor="end">+ controlled-touch rule</text>
+<path class="s1" d="M270,153.0 H544.0 a4,4 0 0 1 4,4 V171.0 a4,4 0 0 1 -4,4 H270 Z"/>
+<text class="t1" x="556.0" y="168.5" font-size="13" font-weight="400">0.556</text>
+<text class="t1" x="258" y="208.5" font-size="13" text-anchor="end">+ dead-ball classifier</text>
+<path class="s1" d="M270,193.0 H557.5 a4,4 0 0 1 4,4 V211.0 a4,4 0 0 1 -4,4 H270 Z"/>
+<text class="t1" x="569.5" y="208.5" font-size="13" font-weight="400">0.583</text>
+<text class="t1" x="258" y="248.5" font-size="13" text-anchor="end">+ course-change touch detection</text>
+<path class="s1" d="M270,233.0 H589.0 a4,4 0 0 1 4,4 V251.0 a4,4 0 0 1 -4,4 H270 Z"/>
+<text class="t1" x="601.0" y="248.5" font-size="13" font-weight="400">0.646</text>
+<text class="t1" x="258" y="288.5" font-size="13" text-anchor="end">Final (0.6 m contact radius)</text>
+<path class="s1" d="M270,273.0 H596.0 a4,4 0 0 1 4,4 V291.0 a4,4 0 0 1 -4,4 H270 Z"/>
+<text class="t1" x="608.0" y="288.5" font-size="13" font-weight="600">0.660</text>
+</svg>
