@@ -101,7 +101,7 @@ tuning on them. So I made every design decision using other matches:
 On the competition match's public five minutes, scored once to check the pipeline, it gets
 spellF1 0.480 and macroF1 0.690. The published baseline gets 0.326 and 0.621.
 
-We were a team of five, Token Gobblers, and this was one of three approaches we built in
+We were a team of five, and this was one of three approaches we built in
 parallel. Mine scored best on the other matches. On the competition match itself, though,
 a teammate's hand-tuned model was better at spotting dead balls (0.547 / 0.844 on the public
 window), so that's the one we submitted. The reason is a difference between the datasets. In
