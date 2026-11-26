@@ -1,5 +1,8 @@
 # Ball possession from automatic football tracking
 
+This is my approach for More than a Hack 2027. The team's submission is in
+[alessandrotavolato/mtah2027-possession](https://github.com/alessandrotavolato/mtah2027-possession).
+
 This project labels every frame of a professional football match as home possession, away
 possession or dead ball, using only automatic player and ball tracking. Nobody labelled the
 match by hand; the model never sees the answers for the game it predicts.
